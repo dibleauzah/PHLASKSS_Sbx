@@ -1,0 +1,111 @@
+{
+  "name": "phlask-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+<<<<<<< HEAD
+    "@mui/material": "^5.2.4",
+    "@mui/icons-material": "5.4.2",
+    "bootstrap": "^4.3.1",
+    "cypress": "^6.4.0",
+    "firebase": "^6.2.0",
+    "geolocation": "^0.2.0",
+    "google-maps-react": "^2.0.2",
+    "jquery": "^3.4.1",
+    "sass": "^1.50.1",
+    "popper.js": "^1.15.0",
+    "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.14",
+    "react-burger-menu": "^2.6.9",
+    "react-device-detect": "^1.11.14",
+    "react-div-100vh": "^0.5.0",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.7.0",
+    "react-github-fork-ribbon": "^0.6.0",
+    "react-google-maps": "^9.4.5",
+=======
+    "@mui/material": "^5.6.2",
+    "@mui/icons-material": "5.4.2",
+    "bootstrap": "^5.1.3",
+    "cypress": "^9.5.4",
+    "firebase": "^9.6.11",
+    "geolocation": "^0.2.0",
+    "google-maps-react": "^2.0.6",
+    "jquery": "^3.6.0",
+    "sass": "^1.50.1",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.3.0",
+    "react-burger-menu": "^3.0.6",
+    "react-device-detect": "^2.2.2",
+    "react-div-100vh": "^0.7.0",
+    "react-dom": "^17.0.0",
+    "react-ga": "^3.3.0",
+>>>>>>> 1e4260eb6fd42dff2e065dece4f22162eac74d26
+    "react-images-upload": "^1.2.8",
+    "react-location": "^3.3.4",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^8.0.0",
+    "react-router": "^5.3.1",
+    "react-router-dom": "^5.3.1",
+    "react-touch-events": "^3.0.0",
+    "recompose": "^0.30.0",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.5",
+    "ts-pnp": "^1.2.0"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-react": "^7.16.7",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.6.2",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cypress run",
+    "eject": "react-scripts eject",
+    "cypress": "cypress open",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "format": "prettier \"src/**/*.{js,css,html}\" --write"
+  },
+  "eslintConfig": {
+    "extends": "plugin:react/recommended"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": ".",
+  "proxy": "https://test.phlask.me",
+  "description": "Code behind the PHLASK Web Map",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phlask/phlask-map.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phlask/phlask-map/issues"
+  }
+}
